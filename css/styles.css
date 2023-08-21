@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+    line-height: 1.6;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 1rem;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+    position: relative;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-weight: 600;
+}
+
+.profile-pic {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+section {
+    background-color: #2a2a2a;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+#hero a {
+    color: #FF8C00;
+    text-decoration: none;
+}
+
+#hero a:hover {
+    text-decoration: underline;
+    color: #FFA500;
+}
+
+#skills h2 {
+    border-bottom: 3px solid #f4f4f4;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+#skills ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
+
+#skills li {
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    position: fixed;
+    top: 15%;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.git-container, .linkedin-container {
+    margin-bottom: 1rem;
+}
+
+.link-item {
+    border-radius: 20px 0px 0px 20px;
+    background-color: #2a2a2a;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.link-item img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.link-text {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.link-item:hover {
+    width: 180px;
+    background-color: #FF8C00;
+}
+
+.link-item:hover .link-text {
+    width: 120px;
+}
+
+footer {
+    font-size: 0.6rem;
+    color: #888;
+    padding: 1rem 0;
+    text-align: left;
+}
+
+footer a {
+    color: #FF8C00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
