@@ -1,0 +1,5 @@
+.profile-pic {
+    width: 15%;  /* Adjust as needed */
+    height: auto;  /* This will maintain the aspect ratio */
+    margin-right: 10px;  /* Adds some spacing between the image and the text next to it */
+}
